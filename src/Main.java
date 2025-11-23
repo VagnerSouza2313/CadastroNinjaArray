@@ -18,7 +18,7 @@ public class Main {
                 case 'C':
                     System.out.println("Quantos ninjas deseja cadastrar: ");
                     ninjas = scanner.nextInt();
-                    scanner.nextLine(); // limpar enter
+                    scanner.nextLine();
 
                     ninjasCadastrados = new String[ninjas];
 
